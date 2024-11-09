@@ -15,9 +15,9 @@ Car::Car(const Car& other)
 
 Car &Car::operator=(const Car &other)
 {
-    if (this != &other) {  // Previne auto-atribuição
-        name = other.name;  // Copia o nome
-        speed = other.speed; // Copia a velocidade
+    if (this != &other) {  
+        name = other.name;  
+        speed = other.speed; 
     }
     return *this;
 }
