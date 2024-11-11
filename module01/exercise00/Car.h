@@ -12,10 +12,10 @@ public:
     Car(const Car&); // copy constructor
     ~Car() = default; // destructor
     Car& operator = (const Car&);  // copy/assignment operator
-    [[nodiscard]] std::string name() const;
-    [[nodiscard]] int speed() const;
-    void name(std::string);
-    void speed(int);
+    [[nodiscard]] std::string getCarName() const;
+    [[nodiscard]] int getSpeed() const;
+    void setName(std::string);
+    void setSpeed(int);
 };
 
 

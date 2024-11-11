@@ -13,18 +13,18 @@ Car& Car::operator = (const Car& o) {
     return *this;
 }
 
-std::string Car::name() const {
+std::string Car::getCarName() const {
     return c_name;
 }
 
-int Car::speed() const {
+int Car::getSpeed() const {
     return c_speed;
 }
 
-void Car::name(std::string name) {
+void Car::setName(std::string name) {
     c_name = std::move(name);
 }
 
-void Car::speed(int speed) {
+void Car::setSpeed(int speed) {
     c_speed = speed;
 }

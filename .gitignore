@@ -1,2 +1,10 @@
 /cmake-build-debug/
 /.idea/
+/module00/CMakeFiles/
+/module01/CMakeFiles/
+/module00/CMakeCache.txt
+/module01/CMakeCache.txt
+/module00/cmake_install.cmake
+/module01/cmake_install.cmake
+/module00/Makefile
+/module01/Makefile
