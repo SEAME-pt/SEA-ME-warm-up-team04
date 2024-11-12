@@ -21,10 +21,12 @@ public:
 
 private slots:
     void on_add_clicked();
+    void showContacts();
 
 private:
     ContactList contactList;
     Ui::Phonebook *ui;
     void add(const QString &name, const QString &phone, const QString &email);
+
 };
 #endif // PHONEBOOK_H

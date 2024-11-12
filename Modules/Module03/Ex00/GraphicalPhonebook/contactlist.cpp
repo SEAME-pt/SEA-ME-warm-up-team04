@@ -19,6 +19,10 @@ ContactList &ContactList::operator=(const ContactList &copyContactList) {
 ContactList::~ContactList() {
 }
 
+deque<Contact> ContactList::getContacts(){
+    return contactList;
+}
+
 void ContactList::addContact(Contact c) {
     contactList.push_back(c);
 }
@@ -36,3 +40,7 @@ Contact ContactList::searchContact(int idx) {
     }
     return contactList[idx];
 }
+
+int ContactList::getLastIndex(){
+    return contactList.size()+1;
+};

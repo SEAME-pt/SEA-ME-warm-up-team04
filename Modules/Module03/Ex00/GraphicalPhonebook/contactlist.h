@@ -17,8 +17,10 @@ public:
     ~ContactList();
 
     void addContact(Contact c);
+    deque<Contact> getContacts();
     void removeContact(int idx);
     Contact searchContact(int idx);
+    int getLastIndex();
 };
 
 #endif // CONTACTLIST_H

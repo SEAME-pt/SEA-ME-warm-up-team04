@@ -20,5 +20,6 @@ void addContact::on_add_clicked()
     QString email = ui->mail->text();
 
     emit contactAdded(name, phone, email);
-    accept();
+
+    close();
 }
