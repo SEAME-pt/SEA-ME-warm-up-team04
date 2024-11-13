@@ -19,7 +19,7 @@
      <x>20</x>
      <y>40</y>
      <width>156</width>
-     <height>101</height>
+     <height>122</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -40,14 +40,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLabel" name="phone">
+       <widget class="QLabel" name="phone_label">
         <property name="text">
          <string>Phone:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_2"/>
+       <widget class="QLineEdit" name="phone"/>
       </item>
      </layout>
     </item>

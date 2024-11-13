@@ -31,6 +31,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         addcontact.h addcontact.cpp addcontact.ui
         contact.h contact.cpp
         contactList.h contactlist.cpp
+        viewcontact.h viewcontact.cpp viewcontact.ui
 
 
 

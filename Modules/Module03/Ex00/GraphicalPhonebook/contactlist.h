@@ -3,12 +3,15 @@
 
 #include "contact.h"
 #include <deque>
+#include <QTextStream>
 using namespace std;
 
 class ContactList
 {
 private:
     deque<Contact> contactList;
+    void saveToFile(const QString &filename) const;
+    void loadFromFile(const QString &filename);
 
 public:
     ContactList();

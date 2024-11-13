@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewContact</class>
+ <widget class="QWidget" name="ViewContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>349</width>
+    <height>198</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableViewContact">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>311</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Phone:</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>E-mail</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Bookmarked: </string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

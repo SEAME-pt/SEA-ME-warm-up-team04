@@ -27,6 +27,7 @@ private:
     ContactList contactList;
     Ui::Phonebook *ui;
     void add(const QString &name, const QString &phone, const QString &email);
-
+    void view(int idx);
+    void remove(int idx);
 };
 #endif // PHONEBOOK_H

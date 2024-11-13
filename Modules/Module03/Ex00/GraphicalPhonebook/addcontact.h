@@ -11,18 +11,18 @@ class addContact : public QDialog
 {
     Q_OBJECT
 
-public:
-    explicit addContact(QWidget *parent = nullptr);
-    ~addContact();
+    public:
+        explicit addContact(QWidget *parent = nullptr);
+        ~addContact();
 
-signals:
-    void contactAdded(const QString &name, const QString &phone, const QString &mail);
+    signals:
+        void contactAdded(const QString &name, const QString &phone, const QString &mail);
 
-private slots:
-    void on_add_clicked();
+    private slots:
+        void on_add_clicked();
 
-private:
-    Ui::addContact *ui;
+    private:
+        Ui::addContact *ui;
 };
 
 #endif // ADDCONTACT_H
